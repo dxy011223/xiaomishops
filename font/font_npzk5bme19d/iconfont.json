@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1812428",
+      "name": "花呗",
+      "font_class": "huabei",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    }
+  ]
+}

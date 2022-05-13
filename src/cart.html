@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>realme 商城</title>
+    <link rel="shortcut icon" href="./img/realme-logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/api.js"></script>
+    <link rel="stylesheet" href="../font/font_npzk5bme19d/iconfont.css">
+    <link rel="stylesheet" href="../font/font_qgbvu8k5fm/iconfont.css">
+
+    <link rel="stylesheet" href="./css/gongyong.css">
+    <script src="./js/common.js"></script>
+    <script src="./js/animateBak.js"></script>
+    <script src="jdSwiper.js"></script>
+    <script src="//unpkg.com/layui@2.6.8/dist/layui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+</head>
+
+<body>
+    <div class="box1">
+        <header class="header">
+            <div class="head_left">
+                <a href="./index.html">realme</a>
+            </div>
+            <div class="head_cen">
+                <ul>
+                    <li><a href="">真我GT Neo 闪速版</a></li>
+                    <li><a href="">真奇喵</a></li>
+                    <li class="list1"><a href="">手机</a>
+                        <div class="head1">
+                            <div class="head1_left">
+                                <ul>
+                                    <li>Q系列<span class="active"><i class="iconfont icon-you"></i></span></li>
+                                    <li>GT系列<span><i class="iconfont icon-you"></i></span></li>
+                                    <li>V系列<span><i class="iconfont icon-you"></i></span></li>
+                                    <li>X系列<span><i class="iconfont icon-you"></i></span></li>
+                                </ul>
+                            </div>
+                            <div class="head1_right">
+                                <div class="active">
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q3 Pro狂欢版.png" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q3 Pro狂欢版</p>
+                                            <span>￥1499</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q3 5G.png" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q3 5G</p>
+                                            <span>￥1299</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q3 Pro5G.png" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q3 Pro 5G</p>
+                                            <span>￥1599</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q3i 5G.png" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q3i 5G</p>
+                                            <span>￥1099</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q2 Pro 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q2 Pro 5G</p>
+                                            <span>￥1399</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q2 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q2 5G</p>
+                                            <span>￥1149</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我Q2i 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Q2i 5G</p>
+                                            <span>￥998</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="">
+                                    <dl>
+                                        <dt><img src="./img/手机/真我GT NEO 闪速版.png" alt=""></dt>
+                                        <dd>
+                                            <h5>新品</h5>
+                                            <p>真我GT Neo闪速版</p>
+                                            <span>￥1999</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我GT Neo 5G.png" alt=""></dt>
+                                        <dd>
+                                            <h5>新品</h5>
+                                            <p>真我GT Neo 5G</p>
+                                            <span>￥1799</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我GT 5G.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我GT 5G</p>
+                                            <span>￥2699</span>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                                <div class="">
+                                    <dl>
+                                        <dt><img src="./img/手机/真我V13 5G.png" alt=""></dt>
+                                        <dd>
+                                            <h5>新品</h5>
+                                            <p>真我V13 5G</p>
+                                            <span>￥1599</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我V11 5G.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我V11 5G</p>
+                                            <span>￥1199</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我V15 5G.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我V15 5G</p>
+                                            <span>￥1499</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我V5 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我V5 5G</p>
+                                            <span>￥1499</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我V3 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我V3 5G</p>
+                                            <span>￥1099</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="">
+                                    <dl>
+                                        <dt><img src="./img/手机/真我X7 pro 至尊版.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我X7 Pro 至尊版</p>
+                                            <span>￥1999</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我X7 pro 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我X7 Pro 5G</p>
+                                            <span>￥1799</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我X7 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我X7 5G</p>
+                                            <span>￥1899</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我X50 Pro 玩家版.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我X50 Pro 玩家版</p>
+                                            <span>￥1999</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我X50 Pro 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我X50 Pro 5G</p>
+                                            <span>￥3599</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/手机/真我X50 5G.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我X50 5G</p>
+                                            <span>￥2299</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list2"><a href="">AloT</a>
+                        <div class="head2">
+                            <div class="head2_left">
+                                <ul>
+                                    <li>耳机<span class="active"><i class="iconfont icon-you"></i></span></li>
+                                    <li>充电<span><i class="iconfont icon-you"></i></span></li>
+                                    <li>箱包<span><i class="iconfont icon-you"></i></span></li>
+                                    <li>家居个护<span><i class="iconfont icon-you"></i></span></li>
+                                </ul>
+                            </div>
+                            <div class="head2_right">
+                                <div class="active">
+                                    <dl>
+                                        <dt><img src="./img/AloT/1.png" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds Air 2 Neo</p>
+                                            <span>￥199</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/2.png" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds Air 2 </p>
+                                            <span>￥249</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/3.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds Air Pro</p>
+                                            <span>￥299</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/4.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds Wireless Pro</p>
+                                            <span>￥269</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/5.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds Q</p>
+                                            <span>￥89</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/6.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds Air Neo</p>
+                                            <span>￥199</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/7.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds 经典版（有线耳机）</p>
+                                            <span>￥99</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/8.jpg" alt=""></dt>
+                                        <dd>
+                                            <p>真我Buds 经典版2</p>
+                                            <span>￥129</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="">
+                                    <dl>
+                                        <dt><img src="./img/AloT/9.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我50W mini 闪充套装</p>
+                                            <span>￥299</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/10.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我65W GaN超级闪充套装</p>
+                                            <span>￥149</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/11.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>realme 闪充电源适配器套装</p>
+                                            <span>￥149</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/12.png" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我移动电源（10000mAh）</p>
+                                            <span>￥79</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/13.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我30W Dart闪充移动电源 10000mAh</p>
+                                            <span>￥149</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/14.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我快充移动电源2 10000mAh</p>
+                                            <span>￥89</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/15.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我快充移动电源2（20000mAh）</p>
+                                            <span>￥299</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="">
+                                    <dl>
+                                        <dt><img src="./img/AloT/116.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我旅行箱</p>
+                                            <span>￥199</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/17.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我托特包</p>
+                                            <span>￥89</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/18.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我潮玩双肩包</p>
+                                            <span>￥99</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/19.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>realme果冻包</p>
+                                            <span>￥119</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/20.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>realme 真我果冻包</p>
+                                            <span>￥129</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/21.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>realme 城市生活双肩包</p>
+                                            <span>￥239</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="">
+                                    <dl>
+                                        <dt><img src="./img/AloT/22.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我夜灯</p>
+                                            <span>￥45</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/23.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我电动牙刷M1</p>
+                                            <span>￥99</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/24.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我电动牙刷N1</p>
+                                            <span>￥49</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/25.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我智能摄像机</p>
+                                            <span>￥149</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/26.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我体脂秤</p>
+                                            <span>￥79</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/27.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我M1 电动牙刷头</p>
+                                            <span>￥19</span>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><img src="./img/AloT/28.jpg" alt=""></dt>
+                                        <dd>
+                                            <h5></h5>
+                                            <p>真我N1 电动牙刷头</p>
+                                            <span>￥9</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">所有产品</a></li>
+                    <li><a href="">品牌</a></li>
+                    <li><a href="">服务</a></li>
+                    <li><a href="">社区</a></li>
+                    <li><a href="">APP</a></li>
+                </ul>
+            </div>
+            <div class="head_right">
+                <div class="ppp">
+                    用户<span></span>，您好
+                </div>
+                <i class="iconfont icon-ren-copy">
+
+                </i>
+                <ul>
+                    <li>
+                        <p>购物车</p>
+                    </li>
+                    <li>
+                        <p>我的订单</p>
+                    </li>
+                    <li>
+                        <p>优惠卷</p>
+                    </li>
+                    <li>
+                        <p>R码</p>
+                    </li>
+                    <li>
+                        <p>我的评论</p>
+                    </li>
+                    <li>
+                        <p>账户信息</p>
+                    </li>
+                    <li>
+                        <p>我的地址</p>
+                    </li>
+                    <li>
+                        <p>登录</p>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <section class="centent">
+
+        <div class="cenpic">
+            <div class="box4">
+                <div class="box4_top">
+                    <div class="box4_top_left">
+                        <p><span>购物车</span></p>
+
+                    </div>
+                    <div class="box4_top_right">
+                        <p>已选商品（不含运费）</p>
+                        <i>￥</i><span id="span_s"></span>
+                        <input type="button" value="结算" id="ipts1">
+                    </div>
+                </div>
+
+            </div>
+            <div class="box5">
+                <div class="box5_top">
+                    <p><input type="checkbox" class="all-sel-ipt" />全选</p>
+                    <p style="width: 400px;">商品信息</p>
+                    <p style="width: 100px;">单价</p>
+                    <p style="width: 100px; text-align: center;">数量</p>
+                    <p style="width: 150px; text-align: center;">金额</p>
+                    <p style="width: 150px; text-align: right;">操作</p>
+                </div>
+                <div class="box5_bom">
+                    <div class="bx1" id='box'>
+
+                        <!-- <div class="p1"> -->
+                        <!-- <input type="checkbox" name="" id="" class="single-sel-ipt">单选
+                                                    <p><img src="" alt=""></p>
+                                                    <h3></h3>
+                                                    <h4></h4>
+                                                    <h6><input type="number" name="" id="ipta" value="1" class="form-control pnum-ipt"
+                                                            data-pid="${v.pid}"></h6>
+                                                    <span>￥15.00</span>
+                                                    <input type="button" value="删除" id="ipt2s" class="btn btn-danger del-btn" data - pid="${v.pid}"> -->
+                        <!-- </div> -->
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="box6" style="display: none;">
+
+                <dl>
+                    <dt><img src="./img/购物车.png" alt=""></dt>
+                    <dd>
+                        <p>购物车内暂时没有商品哦</p>
+                        <button>去购物</button>
+                    </dd>
+                </dl>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="foot1">
+            <div class="foot1_dl">
+                <dl>
+                    <dt class="iconfont icon-qitianwuliyoutuihuanicon"></dt>
+                    <dd>7天无理由退货</dd>
+                </dl>
+                <dl>
+                    <dt class="iconfont icon-huanhuo"></dt>
+                    <dd>手机30天换货保障</dd>
+                </dl>
+                <dl>
+                    <dt class="iconfont icon-yuan"></dt>
+                    <dd>满79元包邮</dd>
+                </dl>
+                <dl>
+                    <dt class="iconfont icon-zhengpinbaozhang
+                    "></dt>
+                    <dd>正品保障</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="foot2">
+            <div class="foot2_left">
+                <table border="0" cellpadding="10">
+                    <tr>
+                        <th>推荐产品</th>
+                        <th>服务支持</th>
+                        <th>关于我们</th>
+                        <th>联系我们</th>
+                    </tr>
+                    <tr>
+                        <td>真我 GT Neo 5G</td>
+                        <td>配送方式</td>
+                        <td>关于realme</td>
+                        <td>service.cn@realme.com</td>
+                    </tr>
+                    <tr>
+                        <td>真我 GT 5G</td>
+                        <td>服务政策</td>
+                        <td>ColorOS官网</td>
+
+                    </tr>
+                    <tr>
+                        <td>真我 V11 5G</td>
+                        <td>常见问题</td>
+                        <td>realme社区</td>
+                    </tr>
+                    <tr>
+                        <td>真我 V15 5G</td>
+                        <td>故障排除</td>
+                        <td>加入我们</td>
+                    </tr>
+                    <tr>
+                        <td>真我 Q2 Pro 5G</td>
+                        <td>预装应用公示</td>
+                    </tr>
+                    <tr>
+                        <td>真我 Q2 5G</td>
+                        <td>R码通道</td>
+                    </tr>
+                    <tr>
+                        <td>真我 X7 Pro 5G</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="foot2_right">
+                <h1>400-628-0066</h1>
+                <h5>8:00-20:00,周一至周日</h5>
+                <button><i class="iconfont icon-fuwudingdanxiangqing-kefu"></i>在线客服</button>
+                <p>9:00-22:00,周一至周日</p>
+                <div class="logo">
+                    <i class="iconfont icon-weixin"></i>
+                    <i class="iconfont icon-weibo"></i>
+                </div>
+            </div>
+        </div>
+        <div class="foot3">
+            <p>Mainland China ( 简体中文 / CNY )</p>
+        </div>
+        <div class="foot4">
+            <div class="foot4_left">
+                <p>&copy; 2019-2021 realme 版权所有. 渝ICP证20200030号
+                    渝ICP备19011033号-1 <i class="iconfont icon-jingcha"></i>
+                    渝公网安备 50011202501913号
+                </p>
+            </div>
+            <div class="foot4_right">
+                <ul>
+                    <li>隐私政策<span>|</span></li>
+                    <li>用户协议<span>|</span></li>
+                    <li>服务政策<span>|</span></li>
+                    <li>侵权投诉指引</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/gongyong.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+
+</html>

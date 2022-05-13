@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>『帐号』-注册</title>
+    <link rel="shortcut icon" href="./img/realme-logo.jpg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/reg.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../font/font_sc9yfxza6hb/iconfont.css">
+    <script src="//unpkg.com/layui@2.6.8/dist/layui.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/api.js"></script>
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="top">
+            <div class="top_con">
+                <p><a
+                        href="https://id.realme.com/account_faq.html?language=zh-CN&region=CN&callback=https%3A%2F%2Fwww.realme.com%2F">帮助中心</a>
+                </p>
+                <p id="top_p">简体中文<i class="iconfont icon-xia"></i>
+                <ul class="ul_li">
+                    <li>
+                        <span>简体中文</span>
+                    </li>
+                    <li>
+                        <span>繁體中文</span>
+                    </li>
+                    <li>
+                        <span>English</span>
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="cen">
+            <h1>注册账号</h1>
+            <div class="ipt1">
+                <div class="ipt_top">
+                    <p>国家/地区<span>|</span>
+                    <h6>中国</h6>
+                </div>
+                <div class="lab">
+                    <ul>
+                        <li>
+                            <span><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqBAMAAAA37dRoAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAYUExURQAAAEdwTAAAAAAAAAAAAAAAAAAAAAAAAKkycPQAAAAIdFJOU00AEkIHNysfLtkWFAAAARJJREFUKM+Vk71vwjAQxV+TAmtjDFlJB2ajwk5AlNWA1K4tIGaQ4P/v+ePiEKdDbkn807Pv+e6MrC3QncrH4eOraFChQZGen6i0kPCtTifw0a/RnNbf76sHfXaBknRv/j+BXkUlMHCLNfDLdAR4T1LhlemEpUbcZ6oxY0p5S0+rAygUbo4KpKEAV+cN2bjyTrHEC9NBoG/OBMhYEujwH5owbTuhPVve6kzWb6FdeeyNdwyFVzSr04srSdsSprTNO97Uqk6JYXueK95l6JjaeCzllGA4wYo50qKiQnl2AeZhorYO77MfpGWYPnFSWNxtivnTpNo2enFzfp04mmptxBEdGXH8AjQVK6amjzGVh6LTy/oDEwhCGnsqcVYAAAAASUVORK5CYII="
+                                    alt=""></span><input type="text" placeholder="搜索国家和地区">
+                        </li>
+                        <li>
+                            <div class="li-A">A</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">B</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">C</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">D</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">E</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">F</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">G</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                            <div class="li-A">H</div>
+                            <ol>
+                                <li class="liss">阿根廷</li>
+                                <li class="liss">埃塞俄比亚</li>
+                                <li class="liss">安提瓜和巴布达</li>
+                                <li class="liss">奥地利</li>
+                                <li class="liss">安圭拉岛</li>
+                                <li class="liss">阿尔及利亚</li>
+                                <li class="liss">埃及</li>
+                                <li class="liss">爱尔兰</li>
+                                <li class="liss">阿尔巴尼亚</li>
+                                <li class="liss">澳大利亚</li>
+                                <li class="liss">阿曼</li>
+                                <li class="liss">阿拉伯联合酋长国</li>
+                                <li class="liss">安哥拉</li>
+                                <li class="liss">阿富汗</li>
+                                <li class="liss">阿塞拜疆</li>
+                                <li class="liss">安道尔共和国</li>
+                            </ol>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="icons">
+                    <i class="iconfont icon-xia"></i>
+                </div>
+            </div>
+            <p class="shuoming">成功注册帐号后，国家/地区将不可更改</p>
+            <div class="ipt2">
+                <input type="username" id="ipt1" placeholder="请输入用户名"><span></span>
+                <input type="password" id="ipt2" placeholder="请输入密码"><span></span>
+                <input type="password" id="ipt2" placeholder="请输入确认密码"><span></span>
+                <p class="shuoming">密码由 6-16 位数字、字母或符号组成、至少包含两种字符</p>
+            </div>
+            <div class="ipt3">
+                <h6><input type="checkbox" name="" id="ipt-cbox">
+                    <p>已阅读并同意<a
+                            href="https://muc.heytap.com/document/heytap/registration/register_zh-CN.html?region=CN&language=zh-CN&callback=https%3A%2F%2Fwww.realme.com%2F">《账号使用协议》</a>&<a
+                            href="https://muc.heytap.com/document/heytap/privacyPolicy/privacyPolicy_zh-CN.html?region=CN&language=zh-CN&callback=https%3A%2F%2Fwww.realme.com%2F">《隐私政策》</a>
+                    </p>
+                </h6>
+                <input type="button" value="注册" id="ipt3">
+
+            </div>
+            <div class="bottom">
+                <h5>欢太为 realme 用户提供帐号服务</h5>
+                <p>© 2005 - 2021 广东欢太 版权所有 粤ICP备 14056724 号-2</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function tops() {
+            let topP = document.querySelector('#top_p')
+            let ulLi = document.querySelector('.ul_li')
+            console.log(topP)
+            topP.onclick = function () {
+                if (ulLi.style.display == 'none') {
+                    ulLi.style.display = 'block'
+                } else {
+                    ulLi.style.display = 'none'
+                }
+            }
+            // topP.onmouseenter = function () {
+            // console.log(123)
+            // ulLi.style.display = 'block'
+            // }
+            ulLi.onmouseleave = function () {
+                ulLi.style.display = 'none'
+            }
+        }
+        tops()
+        lab()
+
+        function lab() {
+            let icon = document.querySelector('.icons')
+            console.log(icon)
+            let ipt1 = document.querySelector('.ipt_top')
+            console.log(ipt1)
+            let lab = document.querySelector('.lab')
+            ipt1.onclick = function () {
+                if (lab.style.display == 'none') {
+                    icon.style.transform = 'rotate(-180deg)'
+                    icon.style.transition = 'all .5s'
+                    lab.style.display = 'block'
+                    console.log(icon)
+
+                } else {
+                    icon.style.transform = ''
+                    lab.style.display = 'none'
+                }
+            }
+            lab.onmouseleave = function () {
+                icon.style.transform = ''
+                lab.style.display = 'none'
+            }
+        }
+        liss()
+
+        function liss() {
+            let liSs = document.querySelectorAll('.liss')
+            let lab = document.querySelector('.lab')
+            console.log(liSs)
+            liSs.forEach(btn => {
+                btn.onclick = () => {
+                    let res = btn.innerHTML
+                    console.log(res)
+                    let h6 = document.querySelector('.ipt1 h6')
+                    h6.innerHTML = res
+                    lab.style.display = 'none'
+                }
+            })
+        }
+    </script>
+    <script src="./js/reg.js"></script>
+
+</body>
+
+</html>

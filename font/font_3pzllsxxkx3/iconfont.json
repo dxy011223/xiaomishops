@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10168574",
+      "name": "realme-logo",
+      "font_class": "realme-logo",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "20550617",
+      "name": "realme",
+      "font_class": "realme",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}

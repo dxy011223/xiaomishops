@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "590885",
+      "name": "人",
+      "font_class": "ren-copy",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "3819724",
+      "name": "七天无理由退换icon",
+      "font_class": "qitianwuliyoutuihuanicon",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "6972356",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "7177879",
+      "name": "换货",
+      "font_class": "huanhuo",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "9499044",
+      "name": "警察",
+      "font_class": "jingcha",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10730111",
+      "name": "元",
+      "font_class": "yuan",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "15722156",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "20263361",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e7c0",
+      "unicode_decimal": 59328
+    },
+    {
+      "icon_id": "20477735",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "21107952",
+      "name": "正品保障",
+      "font_class": "zhengpinbaozhang",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "22058254",
+      "name": "客服",
+      "font_class": "fuwudingdanxiangqing-kefu",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    }
+  ]
+}

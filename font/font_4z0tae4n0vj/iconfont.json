@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7529871",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9361525",
+      "name": "密码可见",
+      "font_class": "mimakejian",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    }
+  ]
+}

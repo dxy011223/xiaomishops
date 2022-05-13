@@ -1,0 +1,1484 @@
+﻿* {
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    width: 100%;
+    background: #F5F5F5
+}
+.tit{
+    width: 100%;
+    height: 50px;
+    background-color: #242933;
+  }
+  .tit .bx {
+    width: 1360px;
+    margin: 0 auto;
+  
+  }
+  .tit li{
+    display: inline-block;
+    color: #8A8F99;
+    line-height: 50px;
+    margin-left: 50px;
+  
+  }
+  .tit li:hover{
+    color: white;
+  }
+  .tit ul{
+    float: left;
+  }
+  .tit .fl-l{
+    float: left;
+  }
+  .tit .fl-r{
+    float: right;
+  }
+html .content,
+body .content {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 56px
+}
+
+html .content .banner,
+body .content .banner {
+    width: 1920px;
+    height: 580px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+html .content .banner .box,
+body .content .banner .box {
+    position: relative
+}
+
+html .content .banner .box .leftBtn,
+body .content .banner .box .leftBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 270px;
+    left: 10px
+}
+
+html .content .banner .box .leftBtn:hover,
+body .content .banner .box .leftBtn:hover {
+    background: black;
+    opacity: .5
+}
+
+html .content .banner .box .leftBtn i,
+body .content .banner .box .leftBtn i {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 8px;
+    color: silver;
+    font-size: 30px
+}
+
+html .content .banner .box .rightBtn,
+body .content .banner .box .rightBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 270px;
+    right: 10px
+}
+
+html .content .banner .box .rightBtn:hover,
+body .content .banner .box .rightBtn:hover {
+    background: black;
+    opacity: .5
+}
+
+html .content .banner .box .rightBtn i,
+body .content .banner .box .rightBtn i {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 8px;
+    color: silver;
+    font-size: 30px
+}
+
+html .content .banner .box .page,
+body .content .banner .box .page {
+    position: absolute;
+    top: 530px;
+    left: 43%
+}
+
+html .content .banner .box .page li,
+body .content .banner .box .page li {
+    width: 10px;
+    height: 10px;
+    background: #4a4a4a;
+    border-radius: 50%;
+    margin-left: 15px;
+    opacity: .3
+}
+
+html .content .banner .box ul,
+body .content .banner .box ul {
+    width: 17280px;
+    position: absolute;
+    height: 580px
+}
+
+html .content .banner .box ul li,
+body .content .banner .box ul li {
+    float: left;
+    width: 1920px;
+    height: 580px
+}
+
+html .content .banner .box ul li img,
+body .content .banner .box ul li img {
+    width: 100%
+}
+
+html .content .box33,
+body .content .box33 {
+    width: 1600px;
+    position: relative;
+    margin: 0 auto
+}
+
+html .content .box33 .box3,
+body .content .box33 .box3 {
+    width: 1206px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+html .content .box33 .box3 h1,
+body .content .box33 .box3 h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px
+}
+
+html .content .box33 .box3 #leftBtn,
+body .content .box33 .box3 #leftBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 130px;
+    background: white;
+    border: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+html .content .box33 .box3 #leftBtn:hover,
+body .content .box33 .box3 #leftBtn:hover {
+    background: gainsboro
+}
+
+html .content .box33 .box3 #rightBtn,
+body .content .box33 .box3 #rightBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    right: 150px;
+    background: white;
+    border: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+html .content .box33 .box3 #rightBtn:hover,
+body .content .box33 .box3 #rightBtn:hover {
+    background: gainsboro
+}
+
+html .content .box33 .box3 .ulist,
+body .content .box33 .box3 .ulist {
+    width: 1206px;
+    height: 380px;
+    overflow: hidden;
+    position: relative
+}
+
+html .content .box33 .box3 .ulist ul,
+body .content .box33 .box3 .ulist ul {
+    height: 380px;
+    position: absolute
+}
+
+html .content .box33 .box3 .ulist ul li,
+body .content .box33 .box3 .ulist ul li {
+    float: left;
+    width: 289px;
+    height: 360px;
+    background: white;
+    margin-left: 10px;
+    padding-top: 20px
+}
+
+html .content .box33 .box3 .ulist ul li:hover,
+body .content .box33 .box3 .ulist ul li:hover {
+    transition: all .5s;
+    transform: translateY(-2px)
+}
+
+html .content .box33 .box3 .ulist ul li span,
+body .content .box33 .box3 .ulist ul li span {
+    margin-left: 110px;
+    display: inline-block
+}
+
+html .content .box33 .box3 .ulist ul li span p,
+body .content .box33 .box3 .ulist ul li span p {
+    font-size: 14px;
+    width: 20px;
+    background: #EA0000;
+    color: white;
+    text-align: center;
+    display: inline-block
+}
+
+html .content .box33 .box3 .ulist ul li dl dt,
+body .content .box33 .box3 .ulist ul li dl dt {
+    width: 289px;
+    height: 200px
+}
+
+html .content .box33 .box3 .ulist ul li dl dt img,
+body .content .box33 .box3 .ulist ul li dl dt img {
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 20px
+}
+
+html .content .box33 .box3 .ulist ul li dl dd,
+body .content .box33 .box3 .ulist ul li dl dd {
+    text-align: center
+}
+
+html .content .box33 .box3 .ulist ul li dl dd h2,
+body .content .box33 .box3 .ulist ul li dl dd h2 {
+    margin: 0 auto;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    font-weight: 900
+}
+
+html .content .box33 .box3 .ulist ul li dl dd h3,
+body .content .box33 .box3 .ulist ul li dl dd h3 {
+    width: 200px;
+    margin: 0 auto;
+    color: black;
+    margin-top: 5px
+}
+
+html .content .box33 .box3 .ulist ul li dl dd h4,
+body .content .box33 .box3 .ulist ul li dl dd h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #DD0B25
+}
+
+html .content .box44,
+body .content .box44 {
+    width: 1600px;
+    position: relative;
+    margin: 0 auto
+}
+
+html .content .box44 .box4,
+body .content .box44 .box4 {
+    width: 1206px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+html .content .box44 .box4 h1,
+body .content .box44 .box4 h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px
+}
+
+html .content .box44 .box4 #leftBtns,
+body .content .box44 .box4 #leftBtns {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 130px;
+    background: white;
+    border: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+html .content .box44 .box4 #leftBtns:hover,
+body .content .box44 .box4 #leftBtns:hover {
+    background: gainsboro
+}
+
+html .content .box44 .box4 #rightBtns,
+body .content .box44 .box4 #rightBtns {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    right: 150px;
+    background: white;
+    border: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+html .content .box44 .box4 #rightBtns:hover,
+body .content .box44 .box4 #rightBtns:hover {
+    background: gainsboro
+}
+
+html .content .box44 .box4 .ulista,
+body .content .box44 .box4 .ulista {
+    width: 1206px;
+    height: 380px;
+    overflow: hidden;
+    position: relative
+}
+
+html .content .box44 .box4 .ulista ul,
+body .content .box44 .box4 .ulista ul {
+    height: 380px;
+    position: absolute
+}
+
+html .content .box44 .box4 .ulista ul li,
+body .content .box44 .box4 .ulista ul li {
+    float: left;
+    width: 289px;
+    height: 360px;
+    background: white;
+    margin-left: 10px;
+    padding-top: 20px
+}
+
+html .content .box44 .box4 .ulista ul li:hover,
+body .content .box44 .box4 .ulista ul li:hover {
+    transition: all .5s;
+    transform: translateY(-2px)
+}
+
+html .content .box44 .box4 .ulista ul li span,
+body .content .box44 .box4 .ulista ul li span {
+    margin-left: 110px;
+    display: inline-block
+}
+
+html .content .box44 .box4 .ulista ul li span p,
+body .content .box44 .box4 .ulista ul li span p {
+    font-size: 14px;
+    width: 20px;
+    background: #EA0000;
+    color: white;
+    text-align: center;
+    display: inline-block
+}
+
+html .content .box44 .box4 .ulista ul li dl dt,
+body .content .box44 .box4 .ulista ul li dl dt {
+    width: 289px;
+    height: 200px
+}
+
+html .content .box44 .box4 .ulista ul li dl dt img,
+body .content .box44 .box4 .ulista ul li dl dt img {
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 20px
+}
+
+html .content .box44 .box4 .ulista ul li dl dd,
+body .content .box44 .box4 .ulista ul li dl dd {
+    text-align: center
+}
+
+html .content .box44 .box4 .ulista ul li dl dd h2,
+body .content .box44 .box4 .ulista ul li dl dd h2 {
+    color: black;
+    font-size: 15px;
+    font-weight: 900
+}
+
+html .content .box44 .box4 .ulista ul li dl dd h3,
+body .content .box44 .box4 .ulista ul li dl dd h3 {
+    color: black;
+    margin-top: 5px
+}
+
+html .content .box44 .box4 .ulista ul li dl dd h4,
+body .content .box44 .box4 .ulista ul li dl dd h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #DD0B25
+}
+
+html .content .box5,
+body .content .box5 {
+    width: 1206px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+html .content .box5 h1,
+body .content .box5 h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    position: relative
+}
+
+html .content .box5 h1 ol,
+body .content .box5 h1 ol {
+    font-size: 14px;
+    float: right;
+    margin-right: 550px;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+    font-weight: 400
+}
+
+html .content .box5 h1 ol li a,
+body .content .box5 h1 ol li a {
+    color: black
+}
+
+html .content .box5 .abc,
+body .content .box5 .abc {
+    width: 1206px;
+    position: relative;
+    overflow: hidden;
+    min-height: 650px
+}
+
+html .content .box5 .abc .ul,
+body .content .box5 .abc .ul {
+    width: 120000px;
+    position: absolute
+}
+
+html .content .box5 .abc .ul ul:nth-child(1),
+body .content .box5 .abc .ul ul:nth-child(1) {
+    width: 1206px;
+    height: 320px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li,
+body .content .box5 .abc .ul ul:nth-child(1) li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li:hover,
+body .content .box5 .abc .ul ul:nth-child(1) li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li dl,
+body .content .box5 .abc .ul ul:nth-child(1) li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li dl dt img,
+body .content .box5 .abc .ul ul:nth-child(1) li dl dt img {
+    width: 200px
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li dl dd,
+body .content .box5 .abc .ul ul:nth-child(1) li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li dl dd h1 span,
+body .content .box5 .abc .ul ul:nth-child(1) li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li dl dd h5,
+body .content .box5 .abc .ul ul:nth-child(1) li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(1) li dl dd p,
+body .content .box5 .abc .ul ul:nth-child(1) li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2),
+body .content .box5 .abc .ul ul:nth-child(2) {
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top,
+body .content .box5 .abc .ul ul:nth-child(2) .top {
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li,
+body .content .box5 .abc .ul ul:nth-child(2) .top li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li:hover,
+body .content .box5 .abc .ul ul:nth-child(2) .top li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li dl,
+body .content .box5 .abc .ul ul:nth-child(2) .top li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li dl dt img,
+body .content .box5 .abc .ul ul:nth-child(2) .top li dl dt img {
+    width: 200px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li dl dd,
+body .content .box5 .abc .ul ul:nth-child(2) .top li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li dl dd h1 span,
+body .content .box5 .abc .ul ul:nth-child(2) .top li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li dl dd h5,
+body .content .box5 .abc .ul ul:nth-child(2) .top li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .top li dl dd p,
+body .content .box5 .abc .ul ul:nth-child(2) .top li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott,
+body .content .box5 .abc .ul ul:nth-child(2) .bott {
+    margin-top: 10px;
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li {
+    float: left;
+    width: 289px;
+    height: 360px;
+    background: white;
+    margin-left: 10px;
+    padding-top: 20px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li:hover,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li:hover {
+    transition: all .5s;
+    transform: translateY(-2px)
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li span,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li span {
+    margin-left: 110px;
+    display: inline-block
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li span p,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li span p {
+    font-size: 14px;
+    width: 20px;
+    background: #EA0000;
+    color: white;
+    text-align: center;
+    display: inline-block
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li dl dt,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li dl dt {
+    width: 289px;
+    height: 200px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li dl dt img,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li dl dt img {
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 20px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd {
+    text-align: center
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd h2,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd h2 {
+    font-size: 15px;
+    font-weight: 900
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd h3,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd h3 {
+    margin-top: 5px
+}
+
+html .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd h4,
+body .content .box5 .abc .ul ul:nth-child(2) .bott li dl dd h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #DD0B25
+}
+
+html .content .box5 .abc .ul ul:nth-child(3),
+body .content .box5 .abc .ul ul:nth-child(3) {
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top {
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li:hover,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dt img,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dt img {
+    width: 200px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd h1 span,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd h5,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd p,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-top li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott {
+    width: 1206px;
+    float: left;
+    margin-top: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li:hover,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dt img,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dt img {
+    width: 200px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd h1 span,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd h5,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd p,
+body .content .box5 .abc .ul ul:nth-child(3) .ul3-bott li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box5 .abc .ul ul:nth-child(4),
+body .content .box5 .abc .ul ul:nth-child(4) {
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott,
+body .content .box5 .abc .ul ul:nth-child(4) .bott {
+    width: 1206px;
+    float: left
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li {
+    float: left;
+    width: 289px;
+    height: 360px;
+    background: white;
+    margin-left: 10px;
+    padding-top: 20px
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li:hover,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li:hover {
+    transition: all .5s;
+    transform: translateY(-2px)
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li span,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li span {
+    margin-left: 110px;
+    display: inline-block
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li span p,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li span p {
+    font-size: 14px;
+    width: 20px;
+    background: #EA0000;
+    color: white;
+    text-align: center;
+    display: inline-block
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li dl dt,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li dl dt {
+    width: 289px;
+    height: 200px
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li dl dt img,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li dl dt img {
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 20px
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd {
+    text-align: center
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd h2,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd h2 {
+    font-size: 15px;
+    font-weight: 900
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd h3,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd h3 {
+    margin-top: 5px
+}
+
+html .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd h4,
+body .content .box5 .abc .ul ul:nth-child(4) .bott li dl dd h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #DD0B25
+}
+
+html .content .box6,
+body .content .box6 {
+    width: 1206px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+html .content .box6 h1,
+body .content .box6 h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    position: relative
+}
+
+html .content .box6 h1 ol,
+body .content .box6 h1 ol {
+    font-size: 14px;
+    float: right;
+    margin-right: 550px;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: flex-start;
+    font-weight: 400;
+    position: absolute;
+    top: 40px;
+    left: 160px
+}
+
+html .content .box6 h1 ol li a,
+body .content .box6 h1 ol li a {
+    color: black
+}
+
+html .content .box6 .abcd,
+body .content .box6 .abcd {
+    width: 1206px;
+    position: relative;
+    overflow: hidden;
+    min-height: 650px
+}
+
+html .content .box6 .abcd .ul2,
+body .content .box6 .abcd .ul2 {
+    width: 120000px;
+    position: absolute
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1),
+body .content .box6 .abcd .ul2 ul:nth-child(1) {
+    width: 1206px;
+    height: 320px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li:hover,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li dl,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li dl dt img,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li dl dt img {
+    width: 200px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd h1 span,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd h5,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd p,
+body .content .box6 .abcd .ul2 ul:nth-child(1) li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2),
+body .content .box6 .abcd .ul2 ul:nth-child(2) {
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top {
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li:hover,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dt img,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dt img {
+    width: 200px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd h1 span,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd h5,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd p,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .top li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott {
+    margin-top: 10px;
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li {
+    float: left;
+    width: 289px;
+    height: 360px;
+    background: white;
+    margin-left: 10px;
+    padding-top: 20px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li:hover,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li:hover {
+    transition: all .5s;
+    transform: translateY(-2px)
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li span,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li span {
+    margin-left: 110px;
+    display: inline-block
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li span p,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li span p {
+    font-size: 14px;
+    width: 20px;
+    background: #EA0000;
+    color: white;
+    text-align: center;
+    display: inline-block
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dt,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dt {
+    width: 289px;
+    height: 200px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dt img,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dt img {
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 20px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd {
+    text-align: center
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd h2,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd h2 {
+    font-size: 15px;
+    font-weight: 900
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd h3,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd h3 {
+    margin-top: 5px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd h4,
+body .content .box6 .abcd .ul2 ul:nth-child(2) .bott li dl dd h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #DD0B25
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3),
+body .content .box6 .abcd .ul2 ul:nth-child(3) {
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top {
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li:hover,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dt img,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dt img {
+    width: 200px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd h1 span,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd h5,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd p,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-top li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott {
+    width: 1206px;
+    float: left;
+    margin-top: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li {
+    float: left;
+    width: 586px;
+    height: 320px;
+    background: white;
+    margin-left: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li:hover,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dt img,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dt img {
+    width: 200px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd {
+    width: 200px;
+    height: 180px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd h1 span,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd h1 span {
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid black
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd h5,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd h5 {
+    font-size: 20px;
+    line-height: 10px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd p,
+body .content .box6 .abcd .ul2 ul:nth-child(3) .ul3-bott li dl dd p {
+    font-size: 18px;
+    color: #DD0B25;
+    margin-top: 30px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4),
+body .content .box6 .abcd .ul2 ul:nth-child(4) {
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott {
+    width: 1206px;
+    float: left
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li {
+    float: left;
+    width: 289px;
+    height: 360px;
+    background: white;
+    margin-left: 10px;
+    padding-top: 20px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li:hover,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li:hover {
+    transition: all .5s;
+    transform: translateY(-2px)
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li span,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li span {
+    margin-left: 110px;
+    display: inline-block
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li span p,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li span p {
+    font-size: 14px;
+    width: 20px;
+    background: #EA0000;
+    color: white;
+    text-align: center;
+    display: inline-block
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dt,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dt {
+    width: 289px;
+    height: 200px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dt img,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dt img {
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 20px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd {
+    text-align: center
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd h2,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd h2 {
+    font-size: 15px;
+    font-weight: 900
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd h3,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd h3 {
+    margin-top: 5px
+}
+
+html .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd h4,
+body .content .box6 .abcd .ul2 ul:nth-child(4) .bott li dl dd h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #DD0B25
+}
+
+html .content .box7,
+body .content .box7 {
+    width: 1206px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 80px
+}
+
+html .content .box7 h1,
+body .content .box7 h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    position: relative
+}
+
+html .content .box7 .ul,
+body .content .box7 .ul {
+    width: 1206px
+}
+
+html .content .box7 .ul ul li,
+body .content .box7 .ul ul li {
+    float: left;
+    margin-left: 10px
+}
+
+html .content .box7 .ul ul li:hover,
+body .content .box7 .ul ul li:hover {
+    transition: all 1s;
+    transform: translateY(-2px)
+}
+
+html .content .box7 .ul ul li:nth-child(1),
+body .content .box7 .ul ul li:nth-child(1) {
+    width: 586px;
+    height: 320px;
+    background-image: url(../img/活动/1.jpg);
+    background-size: 586px 320px;
+    text-align: center;
+    color: white
+}
+
+html .content .box7 .ul ul li:nth-child(1) p,
+body .content .box7 .ul ul li:nth-child(1) p {
+    padding-top: 10px
+}
+
+html .content .box7 .ul ul li:nth-child(1) p h2,
+body .content .box7 .ul ul li:nth-child(1) p h2 {
+    font-size: 30px
+}
+
+html .content .box7 .ul ul li:nth-child(2),
+body .content .box7 .ul ul li:nth-child(2) {
+    width: 586px;
+    height: 320px;
+    background-image: url(../img/活动/2.jpg);
+    background-size: 586px 320px;
+    text-align: center;
+    color: white
+}
+
+html .content .box7 .ul ul li:nth-child(2) p,
+body .content .box7 .ul ul li:nth-child(2) p {
+    padding-top: 10px
+}
+
+html .content .box7 .ul ul li:nth-child(2) p h1,
+body .content .box7 .ul ul li:nth-child(2) p h1 {
+    margin-bottom: 10px
+}
+
+html .content .box7 .ul ul li:nth-child(2) p h2,
+body .content .box7 .ul ul li:nth-child(2) p h2 {
+    font-size: 30px
+}
+
+html .content .box8,
+body .content .box8 {
+    width: 1920px;
+    height: 306px;
+    margin: 0 auto;
+    background-image: url(../img/活动/3.jpg);
+    background-size: 1920px 356px;
+    text-align: center;
+    padding-top: 50px
+}
+
+html .content .box8 h1,
+body .content .box8 h1 {
+    color: white;
+    font-size: 50px
+}
+
+html .content .box8 button,
+body .content .box8 button {
+    width: 120px;
+    height: 43px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: white
+}
+
+html .content .box8 button:hover,
+body .content .box8 button:hover {
+    background: white;
+    color: black
+}
